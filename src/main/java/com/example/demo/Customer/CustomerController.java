@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 @RestController
 
-@RequestMapping(value = "api/v1/students")
+@RequestMapping(value = "api/v1/customers")
 public class CustomerController {
    private final CustomerService customerService; 
    
