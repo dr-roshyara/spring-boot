@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 //custom 
-import com.example.demo.*;
+import com.example.demo.Customer.Customer;
 
 @SpringBootApplication
 @RestController
