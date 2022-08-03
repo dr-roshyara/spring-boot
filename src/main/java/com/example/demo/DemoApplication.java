@@ -1,9 +1,12 @@
 package com.example.demo;
 
+import java.util.List;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+//custom 
+import com.example.demo.*;
 
 @SpringBootApplication
 @RestController
@@ -14,8 +17,15 @@ public class DemoApplication {
 
 	}
 	@GetMapping
-	public String Hello(){
-		return "Hellow World!";
+	public List<Customer> Customers(){
+		return List.of(
+			new Customer(
+				1L,
+				"Dilip",
+				"Paudyal",
+				"dillip_paudyal@gmail.com"
+			)
+		);
 	}
 
 }
