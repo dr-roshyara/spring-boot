@@ -21,6 +21,6 @@ public class CustomerController {
    
 	@GetMapping 
 	 public List<Customer> getStudents(){
-		   return this.customerService.getStundents();
+		   return this.customerService.getCustomers();
 	   }
 }

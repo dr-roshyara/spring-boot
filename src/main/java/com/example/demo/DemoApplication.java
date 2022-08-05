@@ -22,7 +22,7 @@ public class DemoApplication {
 	public List<Customer> Customers(){
 		return List.of(
 			new Customer(
-				1L,
+				1,
 				"Dilip",
 				"Paudyal",
 				"dillip_paudyal@gmail.com"
